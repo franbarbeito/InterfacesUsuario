@@ -1,0 +1,76 @@
+
+/* MARCAS COCHES */
+
+.marcas img {
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  max-width: 1090px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 15px;
+}
+
+.container-wide {
+  max-width: 1350px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.marcas {
+  padding-top: 0;
+}
+
+@media (min-width: 992px) {
+  .marcas {
+    padding-top: 60px;
+  }
+}
+
+.marcas__row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  .marcas__row {
+    flex-direction: row;
+  }
+}
+.marca-card {
+  width: 100%;
+  background-color: #fff;
+  text-align: center;
+  padding-bottom: 25px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 15px 15px;
+}
+
+@media (min-width: 768px) {
+  .marca-card {
+    width: 30%;
+    margin-bottom: 60px;
+  }
+}
+.marca-img {
+  height: 295px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.marca-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  color: #262626;
+  font-size: 21px;
+  font-weight: 600;
+  line-height: 1.2;
+}

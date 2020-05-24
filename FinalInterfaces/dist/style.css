@@ -1,0 +1,145 @@
+.carousel-item {
+  height: 92vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.carousel-caption {
+  bottom: 270px;
+}
+
+.carousel-caption h5 {
+  font-size: 40px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 50px;
+}
+
+.carousel-caption p {
+  width: 75%;
+  margin: auto;
+  font-size: 18px;
+  line-height: 1.9;
+}
+
+.navbar-light .navbar-brand {
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+
+.exclusives-title {
+  padding-top: 10px;
+  text-align: center;
+  display: grid;
+}
+
+.exclusives-title h2 {
+  font-weight:bolder;
+  padding-bottom: 5px;
+  padding-top: 20px;
+}
+
+.exclusive {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-left: 80px;
+  grid-column-gap: 15px;
+}
+
+.exclusive img {
+  border-radius: 35px;
+  display: inline;
+  opacity: 1;
+  padding-top: 10px;
+  width: 80%;
+  height: auto;
+}
+
+.exclusive img:hover {
+  opacity: 0.8;
+}
+
+.picture-description {
+  text-align: center;
+  color: #222;
+  padding-top: 10px;
+}
+
+.exclusive a {
+  text-decoration: none;
+}
+
+.boxed-btn1 {
+    background: black;
+    color: #fff;
+    display: inline-block;
+    padding: 13px 39px;
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    border: 0;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    text-align: center;
+    text-transform: capitalize;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.boxed-btn1:hover{
+    background-color: #4272db;
+    color: #fff;   
+}
+
+.video-wrapper html {
+  box-sizing: border-box;
+  height: 100%;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.video-wrapper body {
+  height: 100%;
+  margin: 0;
+}
+
+.video-wrapper {
+  width: 100%;
+  height: 75vh;
+  overflow: hidden;
+}
+.video-wrapper video {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+/* ignore the code below */
+
+
+.link-area
+{
+  position:fixed;
+  bottom:20px;
+  left:20px;  
+  padding:15px;
+  border-radius:40px;
+  background:tomato;
+}
+.link-area a
+{
+  text-decoration:none;
+  color:#fff;
+  font-size:25px;
+}
